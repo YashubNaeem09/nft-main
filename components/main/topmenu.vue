@@ -1,32 +1,27 @@
 <template>
   <header class="bg-themeColor">
-    <nav class="flex align-items-center justify-content-between p-5" aria-label="Global">
-      <div class="flex">
+    <nav class="flex align-items-center p-5" aria-label="Global">
+      <div class="flex mx-6">
         <nuxt-link to="/" class="flex flex-row">
           <img class="h-8 w-auto" src="images/logo.png" alt="" />
           <span class="text-2xl font-bold text-white">NFT Marketplace</span>
         </nuxt-link>
       </div>
-        <div class="flex lg:hidden">
+        <div class="flex lg:hidden ml-auto">
         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white" @click="mobileMenuOpen = true">
           <span class="sr-only">Open main menu</span>
           <i class="pi pi-bars"></i>
         </button>
       </div>
-      <div class="content-nav hidden lg:ml-auto lg:flex align-items-center justify-self-end">
-      <div class="hidden flex align-items-center justify-content-between">
+      <div class="content-nav hidden lg:ml-auto lg:flex">
+      <div class="flex align-items-center justify-content-between">
        <ul class="flex justify-end p-2 text-1xl font-bold text-white leading-6">
          <li class="mx-4 cursor-pointer hover:text-buttonColor">Marketplace</li>
          <li class="mx-4 cursor-pointer hover:text-buttonColor">Rankings</li>
          <li class="mx-4 cursor-pointer hover:text-buttonColor">Connect Wallet</li>
        </ul>
       </div>
-      <!-- <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-1xl font-bold leading-6 text-white">Features</a>
-        <a href="#" class="text-1xl font-bold leading-6 text-white">Marketplace</a>
-        <a href="#" class="text-1xl font-bold leading-6 text-white">Company</a>
-      </PopoverGroup> -->
-      <div class="hidden flex justify-end">
+      <div class="hidden mx-5 flex justify-end">
         <Button class="purpleButton cursor-pointer text-white">
           <span class="pi pi-user mx-1"></span>
           Sign Up
@@ -74,17 +69,7 @@ import { ref } from 'vue'
 import {
   Dialog,
   DialogPanel,
-} from '@headlessui/vue'
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from '@heroicons/vue/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
+} from '@headlessui/vue';
 
 
 const mobileMenuOpen = ref(false)
