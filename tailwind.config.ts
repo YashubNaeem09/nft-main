@@ -12,7 +12,8 @@ export default {
     extend: {
       colors : {
         buttonColor : '#A259FF',
-        themeColor  : '#2B2B2B'
+        themeColor  : '#2B2B2B',
+        topColor    : '#3B3B3B'
       },
     },
   },
