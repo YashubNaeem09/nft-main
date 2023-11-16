@@ -90,29 +90,6 @@
             </div>
           </div>
         </div>
-        <!-- lg:h-3/5 md:h-1/2
-            <Card style="width: 25em;" class="rounded-3xl bg-themeColor text-white lg:h-3/5 sm:h-80">
-                    <template #header>
-                        <img alt="user header" src="images/trend1.PNG" class="rounded-3xl" />
-                    </template>
-                    <template #title>
-                        <div class="flex flex-row text-white items-center">
-                            <img class="h-28 w-auto rounded-lg object-center object-scale-down -ml-1"
-                                src="images/trend1.1.PNG" alt="" /> 
-                            <img class="h-auto w-auto rounded-lg object-center object-scale-down px-1"
-                                src="images/trend1.2.PNG" alt="" />   
-                            <div class="h-28 w-36 rounded-lg bg-buttonColor">
-                                <h1 class="text-2xl lg:text-3xl font-bold leading-normal lg:leading-none text-white text-center py-5">1025+</h1>
-                            </div>
-                        </div>
-                    </template>
-            </Card>
-            <div class="col">
-            <div class="text-center p-3 border-round-sm bg-primary font-bold ">2</div>
-          </div>
-          <div class="col">
-            <div class="text-center p-3 border-round-sm bg-primary font-bold ">3</div>
-          </div> -->
       </div>
     </div>
   </div>
