@@ -10,131 +10,97 @@
             <div
                 class="col-span-10 md:col-span-8 lg:col-span-14 md:flex md:flex-col md:justify-content-center items-center lg:ml-8 ml-3 overflow-y-hidden">
 
-                <div class="row1 flex lg:flex-row flex-col lg:ml-5">
+                <div class="headRow1 flex lg:flex-row flex-col">
+                    <div class="row1 flex flex-row lg:flex-col lg:ml-5 flex-wrap">
                     <Card
-                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40">
+                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64">
                         <template #header>
                             <img alt="user header" src="images/browse1.PNG"
-                                class="h-38 w-auto rounded-t-3xl object-scale-down" />
+                                class="h-48 w-42 rounded-t-3xl object-scale-down" />
                         </template>
                         <template #title>
-                            <h1 class="flex items-center justify-content-center">Keepitreal</h1>
+                            <h1 class="text-left lg:text-start lg:pt-4">Art</h1>
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center justify-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 lg:my-0 my-3">
                         <template #header>
-                            <img alt="user header" src="images/top2.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
+                            <img alt="user header" src="images/browse2.PNG"
+                                class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
                         </template>
                         <template #title>
-                            <h1 class="flex items-center justify-content-center lg:pt-0 pt-4">DigiLab</h1>
-                        </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
-                        </template>
-                    </Card>
-                    <Card
-                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
-                        <template #header>
-                            <img alt="user header" src="images/top1.2.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
-                        </template>
-                        <template #title>
-                            <h1 class="flex items-center justify-content-center lg:pt-0 pt-4">GravityOne</h1>
-                        </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
-                        </template>
-                    </Card>
-                    <Card
-                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
-                        <template #header>
-                            <img alt="user header" src="images/top1.4.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
-                        </template>
-                        <template #title>
-                            <h1 class="flex items-center justify-content-center lg:pt-0 pt-4">Juanie</h1>
-                        </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
+                            <h1 class="text-left lg:text-start lg:pt-4">Collectibles</h1>
                         </template>
                     </Card>
                 </div>
-                <div class="row2 flex lg:flex-row flex-col lg:py-4 py-0 lg:ml-5">
+                <div class="row2 flex lg:flex-col flex-row flex-wrap">
                     <Card
-                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 lg:my-0 my-3">
                         <template #header>
-                            <img alt="user header" src="images/top2.1.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
+                            <img alt="user header" src="images/browse3.PNG"
+                                class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
                         </template>
                         <template #title>
-                            <h1 class="flex items-center justify-content-center">BlueWhale</h1>
-                        </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center lg:pt-0 pt-4">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
+                            <h1 class="flex lg:text-start lg:pt-4 pt-4">Music</h1>
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3 hidden">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>
-                            <img alt="user header" src="images/top2.2.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
+                            <img alt="user header" src="images/browse4.PNG"
+                            class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
                         </template>
                         <template #title>
-                            <h1 class="flex items-center justify-content-center lg:pt-0 pt-4">Mr Fox</h1>
+                            <h1 class="flex lg:text-start lg:pt-4 pt-4">Photography</h1>
                         </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
+                    </Card>
+                </div>
+                </div>
+                <div class="subRow2 flex lg:flex-row flex-col">
+                    <div class="row3 flex flex-row lg:py-4 py-0 lg:ml-8 flex-wrap">
+                    <Card
+                        class="lg:ml-5 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-22 h-64 lg:my-0 my-3">
+                        <template #header>
+                            <img alt="user header" src="images/browse5.PNG"
+                            class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
+                        </template>
+                        <template #title>
+                            <h1 class="flex lg:text-start lg:pt-4 pt-4 text-left">Video</h1>
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center hidden lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>
-                            <img alt="user header" src="images/top2.3.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
+                            <img alt="user header" src="images/browse6.PNG"
+                            class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
                         </template>
                         <template #title>
-                            <h1 class="flex items-center justify-content-center lg:pt-0 pt-4">Shroomie</h1>
+                            <h1 class="flex lg:text-start lg:pt-4 pt-4">Utility</h1>
                         </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
+                    </Card>
+                </div>
+                <div class="row4 flex flex-row lg:py-4 py-0 flex-wrap">
+                    <Card
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
+                        <template #header>
+                            <img alt="user header" src="images/browse7.PNG"
+                            class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
+                        </template>
+                        <template #title>
+                            <h1 class="flex lg:text-start lg:pt-4 pt-4">Sports</h1>
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3 hidden">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>
-                            <img alt="user header" src="images/top2.4.PNG"
-                                class="h-auto w-36 rounded-full object-scale-down my-5" />
+                            <img alt="user header" src="images/browse8.PNG"
+                            class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
                         </template>
                         <template #title>
-                            <h1 class="flex items-center justify-content-center lg:pt-0 pt-4">Robotica</h1>
-                        </template>
-                        <template #subtitle>
-                            <div class="flex flex-row items-center">
-                                <h3 class="text-grey-900 text-1xl">Total Sales</h3>
-                                <span class="lg:text-2xl text-1xl mx-2 font-medium text-white">34.53 ETH.</span>
-                            </div>
+                            <h1 class="flex lg:text-start lg:pt-4 pt-4">Virtual Worlds</h1>
                         </template>
                     </Card>
+                </div>
                 </div>
         </div>
         </div>
