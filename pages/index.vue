@@ -4,7 +4,8 @@
     <heroComp></heroComp>
     <trendingCollection></trendingCollection>
     <topCreators></topCreators>
-    <browseCategories></browseCategories>
+    <browseCat></browseCat>
+    <!-- <browseCategories></browseCategories> -->
 
 </template>
 <script>
@@ -13,8 +14,9 @@ import heroComp from '../components/main/heroComp.vue';
 import trendingCollection from '../components/main/trendingCollection.vue';
 import topCreators from '../components/main/topCreators.vue'
 import browseCategories from '../components/main/browseCategories.vue'
+import browseCat from '../components/main/browseCat.vue'
 export default {
-    components :{topMenu, heroComp, trendingCollection, topCreators, browseCategories}
+    components :{topMenu, heroComp, trendingCollection, topCreators, browseCategories, browseCat}
 }
 </script>
 <style>

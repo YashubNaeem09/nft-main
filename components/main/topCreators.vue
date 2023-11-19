@@ -18,11 +18,11 @@
             </div>
             </div>
             <div
-                class="col-span-10 md:col-span-8 lg:col-span-14 md:flex md:flex-col md:justify-content-center items-center lg:ml-8 ml-3 overflow-y-hidden">
+                class="col-span-12 md:col-span-8 lg:col-span-14 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-3 overflow-y-hidden">
 
                 <div class="row1 flex lg:flex-row flex-col lg:ml-5">
                     <Card
-                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40">
+                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-15 h-40">
                         <template #header>
                             <img alt="user header" src="images/top1.PNG"
                                 class="h-auto w-36 rounded-full object-scale-down my-5" />
