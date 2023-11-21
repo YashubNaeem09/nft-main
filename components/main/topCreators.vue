@@ -11,11 +11,18 @@
                     </h3> 
                 </div>
                 <div class="buttonModal col-start-1 col-end-7 flex lg:flex-row items-center justify-center lg:justify-end flex-grow lg:mx-3 lg:py-0 py-3 hidden">
-                <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3">
+    <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3">
+        <span class="pi pi-arrow-up-right mx-2"></span>
+        View Rankings
+    </Button>
+</div>
+
+                <!-- <div class="buttonModal col-start-1 col-end-7 flex lg:flex-row items-center justify-center lg:justify-end flex-grow lg:mx-3 lg:py-0 py-3">
+                <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3 sm:hidden">
                     <span class="pi pi-arrow-up-right mx-2"></span>
                     View Rankings
                 </Button>
-            </div>
+            </div> -->
             </div>
             <div
                 class="col-span-12 md:col-span-8 lg:col-span-14 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-3 overflow-y-hidden">
@@ -86,7 +93,7 @@
                         </template>
                     </Card>
                 </div>
-                <div class="row2 flex lg:flex-row flex-col lg:py-4 py-0 lg:ml-5">
+                <div class="row2 flex lg:flex-row flex-col lg:py-4 py-0 lg:ml-5 hidden">
                     <Card
                         class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>
@@ -152,7 +159,7 @@
                         </template>
                     </Card>
                 </div>
-                <div class="row3 flex lg:flex-row flex-col lg:py-2 py-0 lg:ml-5">
+                <div class="row3 flex lg:flex-row flex-col lg:py-2 py-0 lg:ml-5 hidden">
                     <Card
                         class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>

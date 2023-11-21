@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div
-                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-0 -ml-3 overflow-y-hidden">
+                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-5 -ml-3 overflow-y-hidden">
 
                 <div class="headRow1 flex lg:flex-row flex-col">
                     <div class="row1 flex flex-row lg:flex-col lg:ml-8 flex-wrap">
@@ -33,7 +33,7 @@
                             </template>
                         </Card>
                     </div>
-                    <div class="row2 flex lg:flex-col flex-row flex-wrap lg:-ml-5">
+                    <div class="row2 flex lg:flex-col flex-row flex-wrap lg:-ml-6">
                         <Card
                             class="rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 lg:my-0 my-3">
                             <template #header>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="subRow2 flex lg:flex-row flex-col">
-                    <div class="row3 flex flex-row lg:flex-col lg:ml-6 lg:py-4 py-0 flex-wrap">
+                    <div class="row3 flex flex-row lg:flex-col lg:ml-8 lg:py-4 py-0 flex-wrap">
                         <Card
                             class="rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 lg:my-0 my-3 lg:mx-3">
                             <template #header>

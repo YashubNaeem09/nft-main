@@ -11,10 +11,10 @@ export default {
   theme: {
     extend: {
       screens: {
-        'sm' : '640px',
-        // 'md' : '768px',
-        // 'lg' : '1024px',
-      //  'xl' : '1280px',
+       'sm' : '640px',
+        'md' : '768px',
+       'lg' : '1024px',
+       'xl' : '1280px',
       },
       colors : {
         buttonColor : '#A259FF',
@@ -24,7 +24,7 @@ export default {
     },
   },
   plugins: [
-
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
 

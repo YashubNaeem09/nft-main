@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div
-                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-5 overflow-y-hidden">
+                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:-ml-8 -ml-5 overflow-y-hidden">
 
                 <div class="headRow1 flex lg:flex-row flex-col">
                     <div class="row1 flex flex-row lg:flex-col lg:ml-5 flex-wrap">
