@@ -1,8 +1,8 @@
 <template>
     <div
-        class="flex items-center justify-between py-3 bg-themeColor h-auto w-full max-w-screen-8md mx-auto overflow-x-hidden">
-        <div class="topCreators grid grid-cols-10 md:grid-cols-4 lg:grid-cols-1 gap-4 ml-7 lg:ml-3">
-            <div class="col-span-10 md:col-span-14 lg:col-span-12 flex lg:flex-row flex-col">
+        class="flex items-center justify-between py-3 bg-themeColor h-auto w-full max-w-screen-8md overflow-x-hidden">
+        <div class="topCreators grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 ml-7 lg:ml-3">
+            <div class="col-span-12 md:col-span-14 lg:col-span-12 flex lg:flex-row flex-col">
                 <div class="content text-left text-white flex flex-col lg:ml-28">
                     <h1 class="text-4xl lg:text-5xl font-bold leading-normal lg:col-12 lg:leading-normal">Discover More NFTs</h1>
                     <h3
@@ -10,19 +10,19 @@
                         Explore new trending NFTs
                     </h3> 
                 </div>
-                <div class="buttonModal col-start-1 col-end-7 flex lg:flex-row items-center justify-center lg:justify-end flex-grow ml-7 lg:mx-3 lg:py-0 py-3 hidden">
-                <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3">
+                <div class="buttonModal flex flex-row justify-end items-end lg:py-0 py-3 lg:ml-auto ">
+                <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3 mr-5 lg:mr-8">
                     <span class="pi pi-arrow-up-right mx-2"></span>
                     See all
                 </Button>
             </div>
             </div>
             <div
-                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-3 overflow-y-hidden">
+                class="col-span-12 md:col-span-10 lg:col-span-10 md:flex md:flex-col md:justify-content-center items-center lg:ml-1 -ml-3 overflow-y-hidden">
 
                 <div class="row1 flex lg:flex-row flex-col">
                     <Card
-                        class="ml-8 rounded-3xl bg-topColor text-white flex flex-col lg:w-auto lg:h-auto w-64 h-auto">
+                        class="lg:ml-8 ml-5 rounded-3xl bg-topColor text-white flex flex-col lg:w-96 lg:h-auto w-64 h-auto">
                         <template #header>
                             <img alt="user header" src="images/discover1.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />
@@ -50,7 +50,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 ml-8 lg:my-0 my-3 rounded-3xl bg-topColor text-white flex flex-col lg:w-auto lg:h-auto w-64 h-auto">
+                        class="lg:ml-4 ml-5 lg:my-0 my-3 rounded-3xl bg-topColor text-white flex flex-col lg:w-96 lg:h-auto w-64 h-auto">
                         <template #header>
                             <img alt="user header" src="images/discover2.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />
@@ -78,7 +78,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 ml-8 lg:my-0 my-2 rounded-3xl bg-topColor text-white flex flex-col lg:w-auto lg:h-auto w-64 h-auto">
+                        class="lg:ml-4 ml-5 lg:my-0 my-2 rounded-3xl bg-topColor text-white flex flex-col lg:w-96 lg:h-auto w-64 h-auto">
                         <template #header>
                             <img alt="user header" src="images/discover3.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />
