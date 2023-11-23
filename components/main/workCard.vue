@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div
-                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-3 overflow-y-hidden">
+                class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-6 lg:mr-0 mr-3 overflow-y-hidden">
 
                 <div class="row1 flex lg:flex-row flex-col lg:ml-5">
                     <Card
@@ -42,7 +42,7 @@
                             <h1 class="flex lg:items-center lg:justify-content-center lg:pt-0 pt-6 lg:ml-0 ml-5">Create Collection</h1>
                         </template>
                         <template #subtitle>
-                            <div class="flex lg:items-center lg:justify-content-center justify-content-left col-12">
+                            <div class="flex lg:items-center lg:justify-content-center justify-content-left col-10 ml-4">
                                 <span class="lg:text-1xl text-1xl font-light text-white lg:text-center text-left">Upload your work and set up your collection.
                                     Add a description, social links and floor price.
                             </span>
