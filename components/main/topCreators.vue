@@ -93,7 +93,7 @@
                         </template>
                     </Card>
                 </div>
-                <div class="row2 flex lg:flex-row flex-col lg:py-4 py-0 lg:ml-5 hidden sm:block">
+                <div class="row2 flex lg:flex-row flex-col lg:py-4 py-0 lg:ml-5 hidden">
                     <Card
                         class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>
@@ -159,7 +159,7 @@
                         </template>
                     </Card>
                 </div>
-                <div class="row3 flex lg:flex-row flex-col lg:py-2 py-0 lg:ml-5">
+                <div class="row3 flex lg:flex-row flex-col py-0 lg:ml-5 hiddens">
                     <Card
                         class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>

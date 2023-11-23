@@ -8,7 +8,10 @@ export default defineNuxtPlugin ({
           'Button',
           'Card',
           'Checkbox',
-          'Divider'
+          'Divider',
+          'InputText',
+          'InputGroup',
+          'InputText'
         ]
       }
 })
