@@ -11,19 +11,19 @@
             <div
                 class="col-span-12 md:col-span-8 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:-ml-8 -ml-5 overflow-y-hidden">
 
-                <div class="headRow1 flex lg:flex-row flex-col">
-                    <div class="row1 flex flex-row lg:flex-col lg:ml-5 flex-wrap">
-                        <Card class="lg:ml-8 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64">
+                <!-- <div class="headRow1 flex lg:flex-row flex-col lg:ml-3">
+                    <div class="row1 flex flex-row lg:flex-col lg:ml-8 flex-wrap">
+                        <Card class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64">
                             <template #header>
                                 <img alt="user header" src="images/browse1.PNG"
-                                    class="h-48 w-42 rounded-t-3xl object-scale-down" />
+                                    class="h-10 w-10 rounded-t-3xl object-scale-down" />
                             </template>
                             <template #title>
                                 <h1 class="text-left lg:text-start lg:pt-4">Art</h1>
                             </template>
                         </Card>
                         <Card
-                            class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 lg:mx-0 mx-3">
+                            class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 mx-3">
                             <template #header>
                                 <img alt="user header" src="images/browse2.PNG"
                                     class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
@@ -33,9 +33,9 @@
                             </template>
                         </Card>
                     </div>
-                    <div class="row2 flex lg:flex-col flex-row flex-wrap">
+                    <div class="row2 flex lg:flex-col flex-row flex-wrap lg:-ml-2">
                         <Card
-                            class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 lg:my-0 my-3">
+                            class="rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 w-5 h-64 lg:my-0 my-3 lg:mx-3">
                             <template #header>
                                 <img alt="user header" src="images/browse3.PNG"
                                     class="h-48 w-42 rounded-t-3xl object-scale-down my-0" />
@@ -55,7 +55,7 @@
                             </template>
                         </Card>
                     </div>
-                </div>
+                </div> -->
                 <div class="subRow2 flex lg:flex-row flex-col">
                     <div class="row3 flex flex-row lg:py-4 py-0 lg:ml-8 flex-wrap">
                         <Card
@@ -79,7 +79,7 @@
                             </template>
                         </Card>
                     </div>
-                    <div class="row4 flex flex-row lg:py-4 py-0 flex-wrap">
+                    <div class="row4 flex flex-row lg:py-4 py-0 flex-wrap lg:-ml-5">
                         <Card
                             class="lg:ml-4 rounded-3xl bg-topColor text-white flex flex-col lg:w-15 lg:h-80 sm:w-5 sm:h-64 lg:my-0 my-3">
                             <template #header>

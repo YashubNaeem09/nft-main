@@ -1,18 +1,18 @@
 <template>
     <div
-        class="flex items-center justify-between py-3 bg-themeColor h-auto w-full min-h-screen mx-auto overflow-x-hidden">
+        class="flex items-center justify-between py-3 bg-themeColor h-auto w-full max-w-screen-8md mx-auto overflow-x-hidden">
         <div class="topCreators grid grid-cols-10 md:grid-cols-4 lg:grid-cols-1 gap-4 ml-7 lg:ml-3">
-            <div class="col-span-10 md:col-span-14 lg:col-span-12 flex lg:flex-row flex-col">
+            <div class="col-span-10 md:col-span-4 lg:col-span-12 flex flex-row">
                 <div class="content text-left text-white flex flex-col lg:ml-28">
                     <h1 class="text-4xl lg:text-5xl font-bold leading-normal lg:col-12 lg:leading-normal">Top Creators</h1>
                     <h3
-                        class="text-1xl lg:text-2xl ml-1 lg:ml-1 font-normal leading-normal col-14 lg:col-12 lg:leading-relaxed py-2">
+                        class="text-1xl lg:text-2xl lg:ml-1 font-normal leading-normal md:col-10 lg:col-12 lg:leading-relaxed py-2">
                         Checkout Top Rated Creators On The NFT Marketplace.
                     </h3>
                 </div>
                 <div
-                    class="buttonModal col-start-1 col-end-7 flex lg:flex-row items-center justify-center lg:justify-end flex-grow lg:mx-3 lg:py-0 py-3">
-                    <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3">
+                    class="buttonModal col-start-1 col-end-7 flex md:flex-row items-center justify-center lg:justify-end flex-grow lg:mx-3 lg:py-0 py-3">
+                    <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 md:px-4 md:py-3 hidden md:block">
                         <span class="pi pi-arrow-up-right mx-2"></span>
                         View Rankings
                     </Button>
@@ -26,11 +26,11 @@
             </div> -->
             </div>
             <div
-                class="col-span-12 md:col-span-8 lg:col-span-14 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 -ml-6 lg:mr-0 mr-3 overflow-y-hidden">
+                class="col-span-10 md:col-span-8 lg:col-span-14 md:flex md:flex-col md:justify-content-center md:items-center lg:ml-6 -ml-6 lg:mr-0 mr-3 overflow-y-hidden">
 
                 <div class="row1 flex lg:flex-row flex-col lg:ml-5">
                     <Card
-                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-15 h-40">
+                        class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40">
                         <template #header>
                             <img alt="user header" src="images/top1.PNG"
                                 class="h-auto w-36 rounded-full object-scale-down my-5" />
@@ -160,7 +160,7 @@
                         </template>
                     </Card>
                 </div>
-                <div class="row3 flex lg:flex-row flex-col py-0 lg:ml-5 hiddens">
+                <div class="row3 flex lg:flex-row flex-col py-0 lg:ml-5 hidden">
                     <Card
                         class="lg:ml-8 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-15 lg:h-80 w-22 h-40 lg:my-0 my-3">
                         <template #header>

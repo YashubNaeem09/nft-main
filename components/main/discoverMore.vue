@@ -10,19 +10,19 @@
                         Explore new trending NFTs
                     </h3> 
                 </div>
-                <div class="buttonModal flex flex-row justify-end items-end lg:py-0 py-3 lg:ml-auto ">
-                <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3 mr-5 lg:mr-8">
+                <div class="buttonModal flex flex-row justify-end items-end lg:py-3 py-3 lg:ml-auto ">
+                <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3 mr-5">
                     <span class="pi pi-arrow-up-right mx-2"></span>
                     See all
                 </Button>
             </div>
             </div>
             <div
-                class="col-span-12 md:col-span-10 lg:col-span-10 md:flex md:flex-col md:justify-content-center items-center lg:ml-1 -ml-3 overflow-y-hidden">
+                class="col-span-12 md:col-span-10 lg:col-span-12 md:flex md:flex-col md:justify-content-center items-center lg:ml-8 -ml-3 overflow-y-hidden overflow-x-hidden">
 
                 <div class="row1 flex lg:flex-row flex-col">
                     <Card
-                        class="lg:ml-8 ml-5 rounded-3xl bg-topColor text-white flex flex-col lg:w-96 lg:h-auto w-64 h-auto">
+                        class="lg:ml-8 ml-5 rounded-3xl bg-topColor text-white flex flex-col lg:w-80 w-64 h-auto">
                         <template #header>
                             <img alt="user header" src="images/discover1.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />
@@ -50,7 +50,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 ml-5 lg:my-0 my-3 rounded-3xl bg-topColor text-white flex flex-col lg:w-96 lg:h-auto w-64 h-auto">
+                        class="lg:ml-4 ml-5 lg:my-0 my-3 rounded-3xl bg-topColor text-white flex flex-col lg:w-80 lg:h-auto w-64 h-auto">
                         <template #header>
                             <img alt="user header" src="images/discover2.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />
@@ -78,7 +78,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 ml-5 lg:my-0 my-2 rounded-3xl bg-topColor text-white flex flex-col lg:w-96 lg:h-auto w-64 h-auto">
+                        class="lg:ml-4 ml-5 lg:my-0 my-2 rounded-3xl bg-topColor text-white flex flex-col lg:w-80 lg:h-auto w-64 h-auto">
                         <template #header>
                             <img alt="user header" src="images/discover3.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />

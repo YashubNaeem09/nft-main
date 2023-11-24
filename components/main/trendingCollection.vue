@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col hidden sm:block">
+        <div class="col hidden lg:block">
           <div class="card rounded-3xl bg-themeColor text-white">
             <div class="header">
               <img alt="user header" src="images/trend2.PNG" class="rounded-3xl" />
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <div class="col lg:ml-4 hidden sm:block">
+        <div class="col lg:ml-4 hidden xl:block">
           <div class="card rounded-3xl bg-themeColor text-white">
             <div class="header">
               <img alt="user header" src="images/trend3.PNG" class="rounded-3xl" />
