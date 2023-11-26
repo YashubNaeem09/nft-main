@@ -3,16 +3,16 @@
     class="trendCollec flex items-center justify-between py-8 bg-themeColor h-auto w-full max-w-screen-8md mx-auto overflow-x-hidden">
     <div class="grid grid-cols-10 md:grid-cols-4 lg:grid-cols-1 gap-4 ml-7 lg:-ml-3">
       <div class="col-span-10 md:col-span-4 lg:col-span-12">
-        <div class="content text-left text-white flex flex-col lg:ml-28">
+        <div class="content text-left text-white flex flex-col lg:ml-8 md:ml-auto">
           <h1 class="text-4xl lg:text-5xl font-bold leading-normal lg:col-12 lg:leading-normal">Trending Collection</h1>
           <h3
-            class="text-1xl lg:text-2xl ml-1 lg:ml-1 font-normal leading-normal col-14 lg:col-12 lg:leading-relaxed py-2">
+            class="text-1xl lg:text-2xl lg:ml-1 font-normal leading-normal col-12 lg:col-12 lg:leading-relaxed py-2">
             Checkout Our Weekly Updated Trending Collection.
           </h3>
         </div>
       </div>
-      <div class="col-span-10 md:col-span-8 lg:col-span-10 md:flex md:flex-row md:justify-content-between lg:ml-1 -ml-3">
-        <div class="col lg:ml-28 mr-5">
+      <div class="col-span-10 md:col-span-8 lg:col-span-10 md:flex md:flex-row md:justify-content-between lg:ml-1">
+        <div class="col lg:ml-8 mr-5 md:ml-28 sm:ml-0 md:mr-auto">
           <div class="card rounded-3xl bg-themeColor text-white flex flex-col">
             <div class="header">
               <img alt="user header" src="images/trend1.PNG" class="rounded-3xl" />
@@ -22,7 +22,7 @@
                 alt="" />
               <img class="h-auto w-auto rounded-lg object-center object-scale-down px-1" src="images/trend1.2.PNG"
                 alt="" />
-              <div class="h-28 w-28 rounded-lg bg-buttonColor">
+              <div class="h-28 w-28 rounded-lg bg-buttonColor hidden lg:block">
                 <h1 class="text-2xl lg:text-3xl font-bold leading-normal lg:leading-none text-white text-center py-5">
                   1025+</h1>
               </div>
@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col hidden lg:block">
+        <div class="col hidden md:block md:mr-4 xl:mr-0">
           <div class="card rounded-3xl bg-themeColor text-white">
             <div class="header">
               <img alt="user header" src="images/trend2.PNG" class="rounded-3xl" />
@@ -48,7 +48,7 @@
                 alt="" />
               <img class="h-auto w-auto rounded-lg object-center object-scale-down px-1" src="images/trend2.2.PNG"
                 alt="" />
-              <div class="h-28 w-28 rounded-lg bg-buttonColor">
+              <div class="h-28 w-28 rounded-lg bg-buttonColor hidden lg:block">
                 <h1 class="text-2xl lg:text-3xl font-bold leading-normal lg:leading-none text-white text-center py-5">
                   1025+</h1>
               </div>
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <div class="col lg:ml-4 hidden xl:block">
+        <div class="col hidden xl:block xl:mr-5 ">
           <div class="card rounded-3xl bg-themeColor text-white">
             <div class="header">
               <img alt="user header" src="images/trend3.PNG" class="rounded-3xl" />

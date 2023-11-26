@@ -1,26 +1,26 @@
 <template>
     <div class="heroContent grid grid-cols-3 gap-4 grid-flow-col flex align-items-center justify-content-between py-1 bg-themeColor h-auto w-full max-w-screen-8md mx-auto overflow-y-hidden overflow-x-hidden">
-        <div class="col-11 md:col-4 lg:col-4 ml-8 lg:ml-8 md:-mt-5">
-            <div class="content text-left text-white left-6 flex flex-col justify-content-left">
-                <h1 class="text-4xl lg:text-7xl font-bold leading-normal lg:col-10 lg:leading-normal">Discover Digital Art &
+        <div class="col-9 sm:col-7 md:col-5 lg:col-6 xl:col-5 xl:ml-4 lg:ml-3  ml-8 md:ml-auto md:mb-auto md:mt-3 lg:mb-auto">
+            <div class="content lg:text-left text-white flex flex-col sm:justify-center sm:items-center lg:justify-content-left">
+                <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold md:leading-normal lg:col-10 xl:col-10 lg:leading-normal">Discover Digital Art &
                     Collect NFTs</h1>
                 <h3
-                    class="text-1xl lg:text-2xl -ml-1 lg:ml-1 font-normal leading-normal col-9 lg:col-12 lg:leading-relaxed py-2">
+                    class="text-1xl lg:text-2xl -ml-1 sm:-ml-5 md:-ml-3 lg:ml-3 xl:ml-2 font-normal leading-normal col-12 sm:col-11 lg:col-10 xl:col-10 md:col-12 lg:leading-relaxed py-2">
                     NFT Marketplace UI Created With Anima For Figma. Collect, Buy and Sell From More Than 20k NFT Artists.
                 </h3>
             </div>
-            <!--lg:-mt-40 <div class="py-2">
+            <!--lg:-mt-40 <div class="py-2" md:-mt-5 lg:h-2/5 md:h-1/2>
                 <Button class="purpleButton cursor-pointer text-white lg:ml-2 lg:col-18 m-3">
                     <span class="pi pi-user mx-2"></span>
                     Get Started
             </Button>
             </div> -->
         </div>
-        <div class=" md:col-3 lg:col-5 ml-7 -mb-4 lg:ml-8 lg:mt-3 md:mr-4">
+        <div class="col-8 md:col-4 lg:col-4 xl:col-5 xl:mr-auto  md:mr-4 ml-8">
             <div class="card flex align-items-left justify-content-start">
-                <Card style="width: 35em;" class="lg:-ml-8 rounded-3xl bg-themeColor text-white lg:h-2/5 md:h-1/2">
+                <Card style="width: 35em;" class="rounded-3xl bg-themeColor text-white lg:h-auto">
                     <template #header>
-                        <img alt="user header" src="images/hero1.PNG" class="rounded-t-3xl" />
+                        <img alt="user header" src="images/hero1.PNG" class="rounded-t-3xl lg:w-auto" />
                     </template>
                     <template #title> Space Walking </template>
                     <template #subtitle>
