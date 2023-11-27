@@ -12,11 +12,11 @@
                 </div>
             </div>
             <div
-                class="col-span-12 sm:col-span-10 md:col-span-4 lg:col-span-12 md:flex md:flex-col flex justify-center items-center lg:ml-auto md:ml-8 ml-auto mr-5 lg:mr-0 mr-3 overflow-y-hidden">
+                class="col-span-12 sm:col-span-10 md:col-span-4 lg:col-span-12 md:flex md:flex-col flex justify-center items-center lg:ml-8 md:ml-8 ml-auto mr-5 lg:mr-0 mr-3 overflow-y-hidden">
 
                 <div class="row1 flex lg:flex-row flex-col lg:ml-8 md:ml-2 sm:ml-3 sm:mr-3">
                     <Card
-                        class="lg:ml-3 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-72 lg:h-auto w-15 h-44">
+                        class="lg:ml-1 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-80 lg:h-auto w-15 h-44">
                         <template #header>
                             <img alt="user header" src="images/work1.PNG"
                                 class="ml-4 h-48 w-auto rounded-full object-scale-down my-4" />
@@ -33,7 +33,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-3 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-72 lg:h-auto w-15 h-44 lg:my-0 my-3">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-80 lg:h-auto w-15 h-44 lg:my-0 my-3">
                         <template #header>
                             <img alt="user header" src="images/work2.PNG"
                                 class="ml-4 h-48 w-auto rounded-full object-scale-down my-4" />
@@ -50,7 +50,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-3 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-72 lg:h-auto w-15 h-44 lg:my-0">
+                        class="lg:ml-4 rounded-3xl bg-topColor text-white flex lg:flex-col items-center lg:w-80 lg:h-auto w-15 h-44 lg:my-0">
                         <template #header>
                             <img alt="user header" src="images/work3.PNG"
                                 class="ml-4 h-48 w-auto rounded-full object-scale-down my-4" />

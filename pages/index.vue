@@ -5,7 +5,7 @@
     <trendingCollection></trendingCollection>
     <!-- <topCreators></topCreators> -->
     <browseCat></browseCat>
-    <!-- <DiscoverMore></DiscoverMore> -->
+    <DiscoverMore></DiscoverMore>
     <WorkCard></WorkCard>
     <DigestComp></DigestComp>
     <FooterComp></FooterComp>

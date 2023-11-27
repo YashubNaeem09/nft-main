@@ -1,17 +1,17 @@
 <template>
     <div
         class="flex items-center justify-between py-3 bg-themeColor h-auto w-full max-w-screen-8md mx-auto overflow-x-hidden">
-        <div class="topCreators grid grid-cols-1 md:grid-cols-4 lg:grid-cols-1 gap-4">
+        <div class="topCreators grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4">
             <div
-                class="col-span-12 md:col-span-8 lg:col-span-10 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 ml-2 overflow-y-hidden py-8">
+                class="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-10 md:flex md:flex-col md:justify-content-center items-center lg:ml-6 sm:ml-8 ml-4 overflow-y-hidden py-8">
 
-                <div class="row1 flex lg:flex-row flex-col bg-topColor rounded-3xl h-auto w-auto lg:ml-3">
+                <div class="row1 flex lg:flex-row flex-col bg-themeColor lg:bg-topColor rounded-3xl h-auto w-auto lg:ml-3">
                     <div class="py-4 h-auto w-auto flex lg:flex-row flex-col">
-                        <div class="image lg:px-4 lg:py-4 lg:ml-6 ml-2">
+                        <div class="image lg:px-4 lg:py-4 lg:ml-6 ml-6 py-2">
                             <img src="images/digest1.PNG" alt="" class="h-80 w-auto rounded-3xl">
                         </div>
-                        <div class="content lg:py-4 lg:ml-8 ml-2 text-left text-white left-6 flex flex-col justify-content-left">
-                            <h1 class="lg:text-5xl text-4xl font-bold leading-normal lg:col-8 col-7 lg:leading-normal">
+                        <div class="content lg:py-4 lg:ml-8 ml-6 text-left text-white left-6 flex flex-col justify-content-left">
+                            <h1 class="lg:text-5xl text-4xl font-bold leading-normal lg:col-8 col-12 lg:leading-normal">
                                 Join Our Weekly Digest</h1>
                             <h3
                                 class="text-1xl lg:text-2xl ml-1 lg:ml-1 font-normal leading-normal col-8 lg:col-8 lg:leading-relaxed py-2">
