@@ -10,7 +10,7 @@
                         Explore new trending NFTs
                     </h3> 
                 </div>
-                <div class="buttonModal flex flex-row justify-end items-end lg:py-3 py-3 lg:ml-auto sm:hidden ml-auto">
+                <div class="buttonModal flex flex-row justify-end items-end lg:py-3 py-3 lg:ml-auto md:hidden ml-auto">
                 <Button class="rankingButton cursor-pointer text-white lg:px-6 lg:py-3 px-8 py-3 mr-5">
                     <span class="pi pi-arrow-up-right mx-2"></span>
                     See all
@@ -78,7 +78,7 @@
                         </template>
                     </Card>
                     <Card
-                        class="lg:ml-4 ml-5 lg:my-0 my-2 rounded-3xl bg-topColor text-white flex flex-col lg:w-80 lg:h-auto w-64 h-auto md:hidden">
+                        class="lg:ml-4 ml-5 lg:my-0 my-2 rounded-3xl bg-topColor text-white flex flex-col lg:w-80 lg:h-auto w-64 h-auto hidden md:block">
                         <template #header>
                             <img alt="user header" src="images/discover3.PNG"
                                 class="h-auto w-auto rounded-t-3xl object-scale-down" />
